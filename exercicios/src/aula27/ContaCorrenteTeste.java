@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class ContaCorrenteTeste {
     public static void main(String[] args){
 
-        ContaCorrente contaFernanda = new ContaCorrente();
+        ContaCorrente contaNanda = new ContaCorrente();
+        contaNanda.saldo = 20.3;
 
-        contaFernanda.saldo = 0;
+        String sacando  = contaNanda.podeSacar();
 
-        contaFernanda.saque();
+
 
 
     }

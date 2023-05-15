@@ -8,13 +8,17 @@ public class Lampada {
     int potencia;
     String marca;
 
-    void ligar(){
+    boolean ligada;
 
-        System.out.println("A lampada está ligada");
+    void ligar(){
+        ligada = true;
+
     }
     void desligar(){
-        System.out.println("A lampada está desligada");
+        ligada = false;
+
     }
+
 
 
 }
