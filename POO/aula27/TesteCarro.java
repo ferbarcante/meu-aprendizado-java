@@ -8,7 +8,7 @@ public class TesteCarro {
 
         van.marca = "Fiat";
         van.modelo = "Ducato";
-        van.numPassageitos = 10;
+        van.numPassageiros = 10;
         van.capCombustivel = 100;
         van.consumoCombustivel = 0.2;
 
