@@ -8,12 +8,12 @@ public class ContaCorrente {
     boolean especial;
     long limite;
 
-    String podeSacar(String podeSaque){
-
+    public boolean podeSacar(){
+        boolean podeSaque;
         if(saldo>0){
-             podeSaque = "O cliente pode realizar saques";
+            podeSaque = true;
         } else {
-             podeSaque = "O cliente não pode realizar saques";
+            podeSaque = false;
         }
 
         return podeSaque;
