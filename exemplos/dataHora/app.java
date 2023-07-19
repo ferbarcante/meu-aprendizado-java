@@ -36,6 +36,7 @@ public class app {
         System.out.println(d08.toString());
         System.out.println(d09.toString());
         System.out.println(d10.toString());
+        System.out.println(d08.format(fat1));
 
 
     }
