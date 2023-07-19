@@ -3,6 +3,7 @@ package dataHora;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 public class app {
@@ -10,6 +11,7 @@ public class app {
 
         DateTimeFormatter fat1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter fat2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+        DateTimeFormatter fat3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
 
         LocalDate d01 = LocalDate.now();
         LocalDateTime d02 = LocalDateTime.now();
@@ -36,7 +38,14 @@ public class app {
         System.out.println(d08.toString());
         System.out.println(d09.toString());
         System.out.println(d10.toString());
+
         System.out.println(d08.format(fat1));
+        System.out.println(fat1.format(d08));
+        System.out.println(d08.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+
+        System.out.println(d09.format(fat2));
+        System.out.println(fat3.format(d06));
+
 
 
     }
