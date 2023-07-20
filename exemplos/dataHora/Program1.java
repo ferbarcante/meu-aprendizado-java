@@ -19,7 +19,9 @@ public class Program1 {
         LocalDateTime nextWeekLocalDateTime = d02.plusWeeks(1);
 
         Duration t1 = Duration.between(pastWeekLocalDateTime, d02);
+        Duration t2 = Duration.between(pastWeekLocalDateTime.toLocalDate().atTime(0, 0), d01.atTime(0, 0));
 
         System.out.println("t1 dias: " + t1.toDays());
+        System.out.println("t2 dias: " + t2.toDays());
     }
 }
