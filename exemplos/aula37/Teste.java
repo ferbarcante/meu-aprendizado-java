@@ -3,8 +3,18 @@ package aula37;
 public class Teste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Aluno aluno = new Aluno();
+		
+		Professor prof = new Professor();
+		
+		Pessoa pessoa = new Pessoa();
+		
+		//pessoa.get
+		
+		aluno.setNome("Maria");
+		
+		
 	}
 
 }
