@@ -1,4 +1,7 @@
-/.idea/
+/.classpath
+/.project
+/aula43/
+/interfaces/
 /aula10/
 /aula11/
 /aula12/
@@ -25,18 +28,10 @@
 /aula39/
 /aula40/
 /aula41/
-<<<<<<< HEAD
-/interfaces/
-=======
-/curso_java_basico.iml
+/aula42/
 /dataHora/
 /enumerações/
-/exercicios.iml
-/exercicios_java_basico.iml
 /foreach/
 /listas/
-/out/
 /src/
 /vetores/
-/aula42/
->>>>>>> 1e56eb0d202cd454c5201a0eeb1cd1cdf3e771e4
