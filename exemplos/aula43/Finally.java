@@ -20,6 +20,8 @@ public class Finally {
 		} finally {
 			if (sc != null) {
 				sc.close();
+				
+				//será executado independentemente 
 			}
 			System.out.println("Finally block executed");
 		}
