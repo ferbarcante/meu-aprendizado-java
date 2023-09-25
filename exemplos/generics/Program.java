@@ -1,18 +1,17 @@
 package generics;
 
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.List;
 
 public class Program {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scan = new Scanner(System.in);
-		
-		int soma = 0;
-		for(int i = 1; i<=5; i++) {
-			soma = soma + i;
+		List<Integer> myInts = Arrays.asList(5, 2, 10);
+		printList(myInts);
+	}
+	public static void printList(List<?> list) {
+		for (Object obj : list) {
+			System.out.println(obj);
 		}
-		System.out.println(soma);
 	}
 
 }
