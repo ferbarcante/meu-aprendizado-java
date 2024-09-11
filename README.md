@@ -1,3 +1,5 @@
+![Group 28(4)](https://github.com/user-attachments/assets/2be80272-0a4c-4067-be97-6ade0fd798b1)
+
 # Repositório de Aprendizado em Java
 Este é um repositório onde guardo todo o meu aprendizado em Java. Aqui você encontrará códigos, exemplos e projetos que desenvolvi durante o meu processo de aprendizado.
 
